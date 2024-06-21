@@ -28,10 +28,6 @@ export default class SpaceCraftsScreen extends Component {
             })
 
     }
-
-
-
-
     renderItem = ({ item }) => {
         return (
             <View style={styles.contentCard}>
@@ -73,9 +69,6 @@ export default class SpaceCraftsScreen extends Component {
                                 initialNumToRender={10}
                             />
                         </View>
-
-
-
                     </ImageBackground>
                 </View>
             )
